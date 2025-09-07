@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Welcome, <%- user.username %> 🎉</h1>
+    <p>This is your private dashboard.</p>
+    <a href="/logout" class="btn danger">Logout</a>
+    <div id="notification" style="color:red; font-weight:bold;">
+      <%- user.username %>
+    </div>
+  </div>
+</body>
+</html>
